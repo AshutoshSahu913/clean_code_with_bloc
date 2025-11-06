@@ -1,4 +1,5 @@
 import 'package:clean_code_with_bloc/config/routes/routes_name.dart';
+import 'package:clean_code_with_bloc/views/counter/counter_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../views/view.dart';
@@ -12,6 +13,8 @@ class Routes {
         return MaterialPageRoute(builder: (context) => LoginScreen());
       case RoutesNames.homeScreen:
         return MaterialPageRoute(builder: (context) => HomeScreen());
+      case RoutesNames.counterScreen:
+        return MaterialPageRoute(builder: (context) => CounterScreen());
       default:
         return MaterialPageRoute(
           builder: (context) =>
