@@ -8,7 +8,7 @@ class SplashServices {
   void isLogin(BuildContext context) {
     Timer(Duration(seconds: 3), () {
       Navigator.pushNamedAndRemoveUntil(
-          context, RoutesNames.imageUploadScreen, (route) => false);
+          context, RoutesNames.todoScreen, (route) => false);
     });
   }
 }
