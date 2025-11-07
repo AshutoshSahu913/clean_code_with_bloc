@@ -46,6 +46,9 @@ dependencies:
   flutter_secure_storage: ^9.2.4
   freezed: ^3.2.3
   google_fonts: ^6.3.2
+  image_picker: ^1.2.0
+  permission_handler:
+
 
 
 dev_dependencies:
